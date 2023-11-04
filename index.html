@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="temp.css">
+</head>
+<body>
+    <section class="start">
+        <h1 class="heading">Temperature Converter</h1>
+    </section>
+    
+   <section class="monitor">
+        <div class="screen">
+            <div class="left active-box">
+                <div class="temp">
+                    <h1>from</h1>
+                    <select name="" id="" class="select select1">
+                        <option class="celsious">celsious</option>
+                        <option class="frnht">fahrenheit</option>
+                        <option class="kelvin">kelvin</option>
+                    </select>
+                </div>
+               
+               <div class="temp">
+                <h1>To</h1>
+                <select name="" id="" class="select select2">
+                    <option class="frnht">fahrenheit</option>
+                    <option class="celsious">celsious</option>
+                    <option class="kelvin">kelvin</option>
+                </select>
+               </div>
+                
+               
+            </div>
+            <div class="right">
+                <div class="temp">
+                    <h1 class="inp ">enter the value</h1>
+                    <input type="number" class="userInp">
+                </div>
+                <span class="temp">
+                    <h1>Result</h1>
+                    <div class="result"></div>
+                </span> 
+                <button class="btn convert">Convert</button>
+                <button class="btn reset">Reset</button>
+            </div>
+        </div>
+        <div class="stick">
+
+        </div>
+        <div class="base">
+        
+        </div>
+        </section>
+    </section>
+
+
+    <script src="temp.js"></script>
+    
+</body>
+</html>
